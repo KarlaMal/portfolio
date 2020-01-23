@@ -1,0 +1,100 @@
+CSS:
+*{
+    margin:0;
+    border:0;
+    outline: 1.5px solid seagreen;
+}
+#top{
+    background-color: silver;
+    display: inline-block;
+    padding:10px;
+    width:400 px;
+}
+.container{
+    width: 800px;
+    height: 800px;
+    background-color:lightsalmon;
+    padding:15px;
+    margin:auto;
+}
+#picture{
+    width: 325px;
+    height: 189px;
+    background-image: url("photo_of_me");
+    display:inline-block;
+    margin: 20px;
+    border: 5px solid grey;
+}
+#about{
+    width: 325px;
+    height: 189px;
+    background-color: lightgray;
+    display:inline-block;
+    margin: 20px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+}
+span{
+    text-decoration: underline;
+}
+.info{
+    height: 300px;
+    width: 205px;
+    margin: 20px;
+    display: inline-block;
+}
+h3{
+    background-color: silver;
+    padding: 5px;
+    color: white;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>
+<body>
+    <div id="top">
+        <h1>Jayne Doe</h1>
+        <h2>Master of shadows and the Internet!</h2>
+    </div>
+    <div class="container">
+        <div id="picture"></div>
+        <div id="about">
+            <h3>About...</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae architecto quae impedit doloremque cumque molestias odio facere omnis ut autem beatae.</p>
+
+            <p>porro numquam soluta veniam, alias ea praesentium ullam qui.Repudiandae architecto quae impedit doloremque cumque. <span>Continue reading...</span> </p>
+        </div>
+        
+        <div class="info">
+            <h3>La Mode</h3>
+            <div id="mode"></div>  
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque nostrum veritatis doloremque!</p>
+            <h3>Technologies</h3>
+        </div>
+
+        <div class="info">
+            <h3>Family Contacts</h3>
+            <div id="contacts"></div> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque nostrum veritatis doloremque!</p>
+            <h3>Technologies</h3>
+        </div>
+
+        <div class="info">
+            <h3>fiveEleven</h3>
+            <div id="eleven"></div> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque nostrum veritatis doloremque!</p>
+            <h3>Technologies</h3>
+        </div>
+
+    </div>
+</body>
+</html>
